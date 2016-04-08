@@ -1,0 +1,16 @@
+body {
+    margin: 0px;
+    overflow: hidden;
+}
+
+#previewCanvas {
+  width: 1280px;
+	height: 720px;
+	background-color: #000;
+	position:absolute;
+}
+
+#eye {
+    width: 1280px;
+    height: 720px;
+}

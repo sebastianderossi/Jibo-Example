@@ -1,0 +1,33 @@
+{
+    "1": {
+        "id": 1,
+        "class": "Sequence",
+        "name": "",
+        "options": {},
+        "children": [
+            "95d9700f-120e-447d-a0ab-eeaf68491518"
+        ]
+    },
+    "meta": {
+        "version": 1
+    },
+    "95d9700f-120e-447d-a0ab-eeaf68491518": {
+        "id": "95d9700f-120e-447d-a0ab-eeaf68491518",
+        "class": "Subtree",
+        "name": "Run Playback behavior",
+        "options": {
+            "behaviorPath": "playback/play-back.bt",
+            "getNotepad": [
+                "() => {",
+                "    return {};",
+                "}"
+            ],
+            "onResult": [
+                "(treeResult) => {",
+                "}"
+            ]
+        },
+        "asset-pack": "core",
+        "parent": 1
+    }
+}

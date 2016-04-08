@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test</title>
+        <link rel="stylesheet" type="text/css" href="styles/main.css" />
+        <link rel="stylesheet" type="text/css" href="./src/playback/styles/styles.css">
+    </head>
+    <body>
+        <!-- import all scripts needed -->
+
+
+        <canvas id="previewCanvas" width="1280" height="720">
+            This text is displayed if your browser does not support HTML5 Canvas.
+        </canvas>
+        <div id="eye"></div>
+        <div style='height: 0px; width: 0px;overflow:hidden;'><input id="fileToLoadForPlayBack" type="file" onchange="handleFileLoadFromDiskForPlayback(this)"/></div>
+        <script>
+            require('behaviorify/register-es6');
+            require('babel-core/register');
+            require('behaviorify/register');
+            require('./src/index.js');
+
+        </script>
+    </body>
+</html>

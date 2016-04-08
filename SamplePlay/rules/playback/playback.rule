@@ -1,0 +1,44 @@
+TopRule = ($* $CONTROL $*) {
+    #Where does this come into play?
+    playbackState = CONTROL._playbackState
+};
+
+#Defines different states for application
+CONTROL =
+    $PAUSE {_playbackState = PAUSE._playbackState} |
+    $NEXT {_playbackState = NEXT._playbackState} |
+    $STOP {_playbackState = STOP._playbackState} |
+    $START {_playbackState = START._playbackState} |
+    $REPLAY {_playbackState = REPLAY._playbackState};
+
+PAUSE = (
+    (pause $* game | this) |
+    (pause)
+
+) {_playbackState = 'pause'};
+
+START = (
+    (start $* game | this)
+) {_playbackState = 'start'};
+
+NEXT = (
+    (skip $* picture | image | this | now) |
+    (next $* picture | image | please) |
+    (next)
+
+) {_playbackState = 'next'};
+
+STOP = (
+    (hail $* picture | image | this | now) |
+    (stop $* picture | image | please | this | now) |
+    (done $* this)
+    #(done) | (stop)
+
+) {_playbackState = 'stop'};
+
+REPLAY = (
+    (again $* please) |
+    (replay $* picture | image | please) |
+    (replay)
+
+) {_playbackState = 'replay'};
