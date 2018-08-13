@@ -2,7 +2,7 @@
 
 #Collection of Skills for Jibo
 
-Here are a screenshot from this repo!
+Here are a few screenshot from this repo!
 
 ![](https://rawgit.com/sebastianderossi/Jibo-Example/master/SamplePlay/images/Behavior.png)
 ![](https://rawgit.com/sebastianderossi/Jibo-Example/master/SamplePlay/images/Behavior-args.png)
