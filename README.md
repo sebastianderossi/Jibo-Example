@@ -4,11 +4,13 @@
 
 Here are a screenshot from this repo!
 
-![](https://rawgit.com/sebastianderossi/Jibo-Example/tree/master/SamplePlay/images/Behavior.png)
-![](https://rawgit.com/sebastianderossi/Jibo-Example/tree/master/SamplePlay/images/Behavior-args.png)
-![](https://rawgit.com/sebastianderossi/Jibo-Example/tree/master/SamplePlay/images/Switch-Case.png)
+![](https://rawgit.com/sebastianderossi/Jibo-Example/master/SamplePlay/images/Behavior.png)
+![](https://rawgit.com/sebastianderossi/Jibo-Example/master/SamplePlay/images/Behavior-args.png)
+![](https://rawgit.com/sebastianderossi/Jibo-Example/master/SamplePlay/images/Switch-Case.png)
 
 **Note:** This code sample uses an early version of the Jibo-SDK and may no longer be compatible with existing hardware. 
+
+For more information on Jibo-SDK, please visit: https://www.jibo.com/
 
 Who?
 ----------------
@@ -26,6 +28,7 @@ A collection of code demos / prototypes / experiments
 Why?
 ----------------
 To show how easy working with the Jibo-SDK can be!
+
 If you build something interesting share it with others and let me know what you made.
 The code found here is free for anyone to use but feel free to give me a shout out.
 
